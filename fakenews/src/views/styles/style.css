@@ -29,23 +29,20 @@ body {
   padding-top: 30px;
 }
 
-.selectButton {
-  background-color: rgb(86, 86, 206);
-  color: white;
-}
+
 .navbar {
   padding-bottom: 0px;
   padding-left: 10px;
   background-color: #535353;
   color: white;
 }
-.navbarbutton {
-  background-color: rgb(56, 110, 161);
-}
+
+
 .navlink {
   margin-right: 10px;
   margin-bottom: 0px;
   color: antiquewhite;
+  float: right;
 }
 .navlink:hover {
   margin-bottom: -4px;
@@ -56,14 +53,21 @@ body {
   border-left: none;
   border-right: none;
   border-top: none;
+  float: right;
 }
 
 #navbrand {
+  position: relative;
   color: rgb(2, 41, 31);
   font-family: "IranSans";
   font-size: 30px;
-  width: 5px;
+  top: 5px;
   height: 5px;
+  right:70%;
+}
+.header_right{
+  position: relative;
+  left: 50%;
 }
 .header_home_img {
   position: relative;
@@ -75,7 +79,7 @@ body {
 }
 
 
-.homepic_div_text {
+.home_text {
   color: black;
   text-shadow: 1px 1px 8px #000000;
   font-style: italic;
@@ -92,6 +96,9 @@ body {
   height: 35px;
   margin-bottom: 1px;
   font-size: 15px;
+  width: 100%;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 
@@ -106,11 +113,6 @@ body {
   border-color: rgb(192, 191, 191);
   z-index: 0;
   background-color: white;
-}
-
-#imgSearchBar{
-  width: 100%;
-  height: 100%;
 }
 
 .searchItem

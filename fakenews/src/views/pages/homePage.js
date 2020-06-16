@@ -37,7 +37,7 @@ class homePage extends React.Component {
       <div>
         <Header />
         <div className="maindiv">
-            <h2 className="homepic_div_text">
+            <h2 className="home_text">
               عبارت مورد نظر خود را جستجو کنید
             </h2>
             <SearchPlaceBar className="searchbar" />
